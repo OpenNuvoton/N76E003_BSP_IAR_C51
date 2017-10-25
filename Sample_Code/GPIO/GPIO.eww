@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\GPIO.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>TEST</name>
+      <member>
+        <project>GPIO</project>
+        <configuration>Debug</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
