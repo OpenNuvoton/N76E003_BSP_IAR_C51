@@ -45,7 +45,8 @@
 UINT8 data_received[34], data_num = 0;
 
 //========================================================================================================
-void I2C_ISR(void) interrupt 6
+#pragma vector=0x33
+__interrupt void I2C_ISR(void)
 {
     switch (I2STAT)
     {

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>2</fileVersion>
-    <fileChecksum>4185344084</fileChecksum>
+    <fileChecksum>3916736503</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Code\IAP_MHIRC.C</file>
-            <file>$PROJ_DIR$\..\..\Common\Delay.c</file>
             <file>$PROJ_DIR$\..\..\Common\Common.c</file>
+            <file>$PROJ_DIR$\..\..\Common\Delay.c</file>
+            <file>$PROJ_DIR$\Code\IAP_MHIRC.C</file>
             <file>$PROJ_DIR$\Debug\Obj\Common.r51</file>
             <file>$PROJ_DIR$\Code\UID_check.h</file>
             <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
@@ -27,36 +27,45 @@
             <file>$PROJ_DIR$\..\..\Include\N76E003_iar.h</file>
             <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
             <file>$PROJ_DIR$\..\..\Include\Delay.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\IAP_MHIRC.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_MHIRC.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Delay.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Common.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\devices\NuvoTon\lnk51ew_N76E003.xcl</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 7</file>
+                    <file> 22</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Code\IAP_MHIRC.C</name>
+            <name>$PROJ_DIR$\..\..\Common\Common.c</name>
             <outputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 8</file>
+                    <name>BICOMP</name>
+                    <file> 11</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 9</file>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 3</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 19 10 21 14 15 12 5 20</file>
+                    <name>BICOMP</name>
+                    <file> 5 15 21 20 10 14 12 19</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 5 15 21 10 14 12 20 19</file>
+                    <name>ICC8051</name>
+                    <file> 19 10 21 14 15 12 5 20</file>
                 </tool>
             </inputs>
         </file>
@@ -64,45 +73,53 @@
             <name>$PROJ_DIR$\..\..\Common\Delay.c</name>
             <outputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 16</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 13</file>
                 </tool>
-            </outputs>
-            <inputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 24</file>
+                </tool>
                 <tool>
                     <name>ICC8051</name>
-                    <file> 19 10 21 14 15 12 5 20</file>
+                    <file> 16</file>
                 </tool>
+            </outputs>
+            <inputs>
                 <tool>
                     <name>BICOMP</name>
                     <file> 5 15 21 10 14 20 19 12</file>
                 </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\Common\Common.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 3</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 11</file>
-                </tool>
-            </outputs>
-            <inputs>
                 <tool>
                     <name>ICC8051</name>
                     <file> 19 10 21 14 15 12 5 20</file>
                 </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Code\IAP_MHIRC.C</name>
+            <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 5 15 21 20 10 14 12 19</file>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5 15 21 10 14 12 20 19</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 19 10 21 14 15 12 5 20</file>
                 </tool>
             </inputs>
         </file>
@@ -110,21 +127,21 @@
             <name>$PROJ_DIR$\Code\UID_check.h</name>
             <outputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 8</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 9</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 8</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
+                    <name>BICOMP</name>
                     <file> 19 14 15 12 5 20 10 21</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
+                    <name>ICC8051</name>
                     <file> 19 14 15 12 5 20 10 21</file>
                 </tool>
             </inputs>
@@ -135,6 +152,15 @@
                 <tool>
                     <name>XLINK</name>
                     <file> 17 3 16 8 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\IAP_MHIRC.d51</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 26 3 16 8 18</file>
                 </tool>
             </inputs>
         </file>

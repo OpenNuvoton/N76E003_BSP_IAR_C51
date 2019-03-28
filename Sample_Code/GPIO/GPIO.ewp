@@ -68,7 +68,7 @@
                 </option>
                 <option>
                     <name>Constant Placement</name>
-                    <state>0</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>Datapointer Size</name>
@@ -137,7 +137,7 @@
                 </option>
                 <option>
                     <name>RTLibraryPath</name>
-                    <state>$TOOLKIT_DIR$\LIB\CLIB\cl-pli-nsid-1e16x01.r51</state>
+                    <state>$TOOLKIT_DIR$\LIB\CLIB\cl-pli-nsic-1e16x01.r51</state>
                 </option>
                 <option>
                     <name>Input variant</name>
@@ -437,7 +437,7 @@
                 </option>
                 <option>
                     <name>RomMonBpPadding</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>PreInclude</name>
@@ -478,7 +478,7 @@
                 </option>
                 <option>
                     <name>CCOverrideModuleTypeDefault</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCRadioModuleType</name>
@@ -747,11 +747,11 @@
                 </option>
                 <option>
                     <name>XOutOverride</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OutputFile</name>
-                    <state>GPIO.bin</state>
+                    <state>GPIO.d51</state>
                 </option>
                 <option>
                     <name>OutputFormat</name>
@@ -785,7 +785,7 @@
                 </option>
                 <option>
                     <name>XList</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>SegmentMap</name>
@@ -813,7 +813,7 @@
                 </option>
                 <option>
                     <name>XclOverride</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>XclFile</name>
@@ -933,7 +933,7 @@
                 </option>
                 <option>
                     <name>AllowExtraOutput</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>GenerateExtraOutput</name>

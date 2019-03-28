@@ -26,10 +26,10 @@
             <file>$PROJ_DIR$\..\..\Include\N76E003_iar.h</file>
             <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
             <file>$PROJ_DIR$\..\..\Include\Delay.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\Timer01_m0.d51</file>
-            <file>$PROJ_DIR$\Debug\Obj\Delay.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\Common.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Delay.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\Timer01_M0.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\Timer01_m0.d51</file>
             <file>$TOOLKIT_DIR$\config\devices\NuvoTon\lnk51ew_N76E003.xcl</file>
         </outputs>
         <file>
@@ -37,7 +37,7 @@
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 21</file>
+                    <file> 24</file>
                 </tool>
             </outputs>
         </file>
@@ -45,32 +45,36 @@
             <name>$PROJ_DIR$\..\..\Common\Common.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
                     <name>__cstat</name>
-                    <file> 23</file>
+                    <file> 21</file>
                 </tool>
                 <tool>
                     <name>ICC8051</name>
                     <file> 3</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 10</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 18 9 20 13 14 11 4 19</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 4 14 20 19 9 13 11 18</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 18 9 20 13 14 11 4 19</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\Common\Delay.c</name>
             <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
                 <tool>
                     <name>__cstat</name>
                     <file> 22</file>
@@ -79,19 +83,15 @@
                     <name>ICC8051</name>
                     <file> 15</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 12</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 18 9 20 13 14 11 4 19</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 4 14 20 9 13 19 18 11</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 18 9 20 13 14 11 4 19</file>
                 </tool>
             </inputs>
         </file>
@@ -99,26 +99,26 @@
             <name>$PROJ_DIR$\Code\Timer01_M0.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
                     <name>__cstat</name>
-                    <file> 24</file>
+                    <file> 23</file>
                 </tool>
                 <tool>
                     <name>ICC8051</name>
                     <file> 7</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 8</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 18 9 20 13 14 11 4 19</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 4 14 20 9 13 11 19 18</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 18 9 20 13 14 11 4 19</file>
                 </tool>
             </inputs>
         </file>

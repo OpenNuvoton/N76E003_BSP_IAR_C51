@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>2</fileVersion>
-    <fileChecksum>74482476</fileChecksum>
+    <fileChecksum>1498817973</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
@@ -15,29 +15,28 @@
             <file>$PROJ_DIR$\..\..\Include\Common.h</file>
             <file>$PROJ_DIR$\Debug\Obj\I2C_EEPROM.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\I2C_EEPROM.r51</file>
-            <file>$PROJ_DIR$\Debug\Exe\I2C_EEPROM.bin</file>
             <file>$PROJ_DIR$\Debug\Obj\I2C_EEPROM.pbd</file>
             <file>$PROJ_DIR$\Debug\Obj\Delay.pbi</file>
             <file>$PROJ_DIR$\..\..\Include\SFR_Macro.h</file>
             <file>$PROJ_DIR$\..\..\Include\Function_define.h</file>
             <file>$PROJ_DIR$\Debug\Obj\Delay.r51</file>
-            <file>$TOOLKIT_DIR$\config\devices\_generic\lnk51ew_8052.xcl</file>
             <file>$PROJ_DIR$\..\..\Include\N76E003_iar.h</file>
             <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
             <file>$PROJ_DIR$\..\..\Include\Delay.h</file>
+            <file>$TOOLKIT_DIR$\config\devices\NuvoTon\lnk51ew_N76E003.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C_EEPROM.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Delay.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Common.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\I2C_EEPROM.d51</file>
+            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsid-1e16x01.r51</file>
         </outputs>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>XLINK</name>
-                    <file> 10</file>
-                </tool>
-            </outputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\..\..\Common\Common.c</name>
             <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 21</file>
+                </tool>
                 <tool>
                     <name>ICC8051</name>
                     <file> 3</file>
@@ -50,11 +49,11 @@
             <inputs>
                 <tool>
                     <name>ICC8051</name>
-                    <file> 17 7 19 13 14 5 4 18</file>
+                    <file> 15 7 17 12 13 5 4 16</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 4 14 19 18 7 13 5 17</file>
+                    <file> 4 13 17 16 7 12 5 15</file>
                 </tool>
             </inputs>
         </file>
@@ -62,28 +61,36 @@
             <name>$PROJ_DIR$\..\..\Common\Delay.c</name>
             <outputs>
                 <tool>
+                    <name>__cstat</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
                     <name>ICC8051</name>
-                    <file> 15</file>
+                    <file> 14</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 12</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC8051</name>
-                    <file> 17 7 19 13 14 5 4 18</file>
+                    <file> 15 7 17 12 13 5 4 16</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 4 14 19 7 13 18 17 5</file>
+                    <file> 4 13 17 7 12 16 15 5</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Code\I2C_EEPROM.c</name>
             <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 19</file>
+                </tool>
                 <tool>
                     <name>ICC8051</name>
                     <file> 9</file>
@@ -96,30 +103,32 @@
             <inputs>
                 <tool>
                     <name>ICC8051</name>
-                    <file> 17 13 14 5 4 18 7 19</file>
+                    <file> 15 7 17 12 13 5 4 16</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 19 14 13 7 5 17 4 18</file>
+                    <file> 4 13 17 7 12 16 15 5</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\I2C_EEPROM.bin</name>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\I2C_EEPROM.d51</name>
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 16</file>
+                    <file> 18 3 14 9 23</file>
                 </tool>
             </inputs>
         </file>
-        <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>XLINK</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>[REBUILD_ALL]</name>
-        </forcedrebuild>
     </configuration>
     <configuration>
         <name>Release</name>

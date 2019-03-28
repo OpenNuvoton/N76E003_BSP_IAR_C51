@@ -54,7 +54,7 @@
                 </option>
                 <option>
                     <name>Start of extended stack</name>
-                    <state>0x002000</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>Calling convention</name>
@@ -77,19 +77,19 @@
                 <option>
                     <name>Nr of Datapointers</name>
                     <version>0</version>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>Switch Method</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>Mask Value</name>
-                    <state>0x00</state>
+                    <state>0x01</state>
                 </option>
                 <option>
                     <name>DPS Address</name>
-                    <state></state>
+                    <state>0xA2</state>
                 </option>
                 <option>
                     <name>Sfr Visibility</name>
@@ -101,7 +101,7 @@
                 </option>
                 <option>
                     <name>CodeBankReg</name>
-                    <state>0x90</state>
+                    <state>0xF0</state>
                 </option>
                 <option>
                     <name>CodeBankStart</name>
@@ -137,7 +137,7 @@
                 </option>
                 <option>
                     <name>RTLibraryPath</name>
-                    <state>$TOOLKIT_DIR$\LIB\CLIB\cl-pli-nsid-1e16x01.r51</state>
+                    <state>$TOOLKIT_DIR$\LIB\CLIB\cl-pli-nsid-2h16inc.r51</state>
                 </option>
                 <option>
                     <name>Input variant</name>
@@ -195,7 +195,7 @@
                 </option>
                 <option>
                     <name>CodeBankNrOfs</name>
-                    <state>0x03</state>
+                    <state>0x02</state>
                 </option>
                 <option>
                     <name>CodeBankRegMask</name>
@@ -208,7 +208,7 @@
                 </option>
                 <option>
                     <name>PDATA 8-15 register address</name>
-                    <state>0xA0</state>
+                    <state>0x91</state>
                 </option>
                 <option>
                     <name>PDATA 16-31 register address</name>
@@ -251,11 +251,11 @@
                 </option>
                 <option>
                     <name>OGChipSelectMenu</name>
-                    <state>N76E003	N76E003</state>
+                    <state>ML51	ML51</state>
                 </option>
                 <option>
                     <name>OGChipSelectMenuSlave</name>
-                    <state>N76E003	N76E003</state>
+                    <state>ML51	ML51</state>
                 </option>
                 <option>
                     <name>DPC Address</name>
@@ -279,7 +279,7 @@
                 </option>
                 <option>
                     <name>OGChipConfigPath</name>
-                    <state>$TOOLKIT_DIR$\config\devices\NuvoTon\N76E003.i51</state>
+                    <state>C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\8051\config\devices\NuvoTon\ML51.i51</state>
                 </option>
             </data>
         </settings>
@@ -751,7 +751,7 @@
                 </option>
                 <option>
                     <name>OutputFile</name>
-                    <state>IAP_BYTE.bin</state>
+                    <state>IAP_BYTE.d51</state>
                 </option>
                 <option>
                     <name>OutputFormat</name>

@@ -59,7 +59,7 @@
                 <option>
                     <name>Calling convention</name>
                     <version>0</version>
-                    <state>0</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>Workseg Size</name>
@@ -129,7 +129,7 @@
                 </option>
                 <option>
                     <name>RTDescription</name>
-                    <state>Do not link with a runtime library.</state>
+                    <state>Use the legacy C runtime library.</state>
                 </option>
                 <option>
                     <name>RTConfigPath</name>
@@ -137,7 +137,7 @@
                 </option>
                 <option>
                     <name>RTLibraryPath</name>
-                    <state></state>
+                    <state>$TOOLKIT_DIR$\LIB\CLIB\cl-pli-nsid-1e16x01.r51</state>
                 </option>
                 <option>
                     <name>Input variant</name>
@@ -230,12 +230,12 @@
                 <option>
                     <name>GRuntimeLibSelect2</name>
                     <version>0</version>
-                    <state>0</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>GRuntimeLibSelectSlave2</name>
                     <version>0</version>
-                    <state>0</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>Extended stack address</name>
@@ -490,7 +490,7 @@
                 </option>
                 <option>
                     <name>CCOptLevel</name>
-                    <state>2</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CCOptStrategy</name>
@@ -499,7 +499,7 @@
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>2</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CompilerMisraRules04</name>
@@ -545,7 +545,7 @@
                 <option>
                     <name>CCAllowList2</name>
                     <version>0</version>
-                    <state>1001000</state>
+                    <state>0000000</state>
                 </option>
                 <option>
                     <name>CCOptStrategySlave</name>
@@ -592,7 +592,7 @@
                 </option>
                 <option>
                     <name>Debug</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>AList</name>
@@ -747,11 +747,11 @@
                 </option>
                 <option>
                     <name>XOutOverride</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>OutputFile</name>
-                    <state>I2C_EEPROM.bin</state>
+                    <state>I2C_EEPROM.d51</state>
                 </option>
                 <option>
                     <name>OutputFormat</name>
@@ -793,7 +793,7 @@
                 </option>
                 <option>
                     <name>ListSymbols</name>
-                    <state>2</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>PageLengthCheck</name>
@@ -925,11 +925,11 @@
                 </option>
                 <option>
                     <name>RuntimeControl</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>IoEmulation</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>AllowExtraOutput</name>

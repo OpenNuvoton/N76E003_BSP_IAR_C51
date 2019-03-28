@@ -102,12 +102,14 @@
 ////--------- Define all port as quasi mode ---------
 //#define Set_All_GPIO_Quasi_Mode			P0M1=0;P0M1=0;P1M1=0;P1M2=0;P2M1=0;P2M2=0;P3M1=0;P3M2=0
 #endif
-
+ __xdata char page1,page2;
 /*------------------------------------------------
 The main C function.  Program execution starts
 here after stack initialization.
 ------------------------------------------------*/
 #pragma vector=0x3b
+
+
 __interrupt void PinInterrupt_ISR (void)
 {
 	if (PIF == 0x80)
@@ -135,8 +137,9 @@ __interrupt void PinInterrupt_ISR (void)
 void main (void) 
 {
 	Set_All_GPIO_Quasi_Mode;					// Define in Function_define.h
-	
-#if 1
+	page1 = 0x55;
+        page2 = 0x66;
+
 	InitialUART0_Timer3(115200);
 	set_CLOEN;  
   
@@ -146,11 +149,11 @@ void main (void)
        Timer0_Delay1ms(300);
        set_GPIO1;	
        Timer0_Delay1ms(300);
-       //Send_Data_To_UART0(0x55);					//UART0 send ascii "U"
-       printf_UART("a");
+       Send_Data_To_UART0(0x55);					//UART0 send ascii "U"
+ //      printf_UART("hello world");
   }
-#endif
-	
+
+#if 0	
 	P17_OpenDrain_Mode;
 	Enable_INT_Port1;
 	Enable_BIT7_FallEdge_Trig;
@@ -159,7 +162,7 @@ void main (void)
         set_EA;								// global enable bit
 	
 	while(1);
-
+#endif
 }
 
 

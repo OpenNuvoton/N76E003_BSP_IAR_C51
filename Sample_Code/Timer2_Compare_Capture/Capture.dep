@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>2</fileVersion>
-    <fileChecksum>362774386</fileChecksum>
+    <fileChecksum>1182162493</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\Capture.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Common.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Delay.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\Capture.d51</file>
             <file>$PROJ_DIR$\Code\Capture.c</file>
-            <file>$PROJ_DIR$\..\..\Common\Delay.c</file>
             <file>$PROJ_DIR$\..\..\Common\Common.c</file>
+            <file>$PROJ_DIR$\..\..\Common\Delay.c</file>
             <file>$PROJ_DIR$\Debug\Obj\Common.r51</file>
             <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
             <file>$PROJ_DIR$\Debug\Obj\Capture.pbd</file>
@@ -26,59 +30,50 @@
             <file>$PROJ_DIR$\..\..\Include\N76E003_iar.h</file>
             <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
             <file>$PROJ_DIR$\..\..\Include\Delay.h</file>
+            <file>$TOOLKIT_DIR$\config\devices\NuvoTon\lnk51ew_N76E003.xcl</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 6</file>
+                    <file> 3</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Capture.d51</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 25 11 7 19 21</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Code\Capture.c</name>
             <outputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 7</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 8</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 18 9 20 13 14 11 4 19</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 4 14 20 9 13 11 19 18</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\Common\Delay.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 15</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 12</file>
                 </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 0</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 11</file>
+                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 18 9 20 13 14 11 4 19</file>
+                    <name>BICOMP</name>
+                    <file> 8 18 24 13 17 15 23 22</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 4 14 20 9 13 19 18 11</file>
+                    <name>ICC8051</name>
+                    <file> 22 13 24 17 18 15 8 23</file>
                 </tool>
             </inputs>
         </file>
@@ -86,22 +81,53 @@
             <name>$PROJ_DIR$\..\..\Common\Common.c</name>
             <outputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 3</file>
+                    <name>BICOMP</name>
+                    <file> 14</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 10</file>
+                    <name>__cstat</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 7</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 18 9 20 13 14 11 4 19</file>
+                    <name>BICOMP</name>
+                    <file> 8 18 24 23 13 17 15 22</file>
                 </tool>
                 <tool>
+                    <name>ICC8051</name>
+                    <file> 22 13 24 17 18 15 8 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Common\Delay.c</name>
+            <outputs>
+                <tool>
                     <name>BICOMP</name>
-                    <file> 4 14 20 19 9 13 11 18</file>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 18 24 13 17 23 22 15</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22 13 24 17 18 15 8 23</file>
                 </tool>
             </inputs>
         </file>
@@ -110,7 +136,7 @@
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 16 7 3 15 17</file>
+                    <file> 20 11 7 19 21</file>
                 </tool>
             </inputs>
         </file>

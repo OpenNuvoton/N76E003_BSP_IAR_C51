@@ -44,16 +44,16 @@
             <name>$PROJ_DIR$\Code\CLK_OUT.c</name>
             <outputs>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 23</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 10</file>
                 </tool>
                 <tool>
                     <name>ICC8051</name>
                     <file> 8</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 23</file>
                 </tool>
             </outputs>
             <inputs>
@@ -71,16 +71,16 @@
             <name>$PROJ_DIR$\..\..\Common\Delay.c</name>
             <outputs>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 22</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 6</file>
                 </tool>
                 <tool>
                     <name>ICC8051</name>
                     <file> 3</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 22</file>
                 </tool>
             </outputs>
             <inputs>

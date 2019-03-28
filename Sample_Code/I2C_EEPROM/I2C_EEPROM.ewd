@@ -169,7 +169,7 @@
                 </option>
                 <option>
                     <name>Third-Party Driver File Name Edit</name>
-                    <state>C:\Program Files\Nuvoton Tools\Nu-Link_IAR_51.dll</state>
+                    <state>C:\Program Files (x86)\Nuvoton Tools\Nu-Link_IAR\Nu-Link_IAR_51.dll</state>
                 </option>
                 <option>
                     <name>Third-Party Driver LogFile Check</name>

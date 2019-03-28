@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>2</fileVersion>
-    <fileChecksum>3870456029</fileChecksum>
+    <fileChecksum>2931501242</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Code\I2C_M.c</file>
-            <file>$PROJ_DIR$\..\..\..\Common\Delay.c</file>
             <file>$PROJ_DIR$\..\..\..\Common\Common.c</file>
+            <file>$PROJ_DIR$\..\..\..\Common\Delay.c</file>
+            <file>$PROJ_DIR$\Code\I2C_M.c</file>
             <file>$PROJ_DIR$\Debug\Obj\I2C_M.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\Common.r51</file>
             <file>$PROJ_DIR$\..\..\Common\Common.c</file>
@@ -28,42 +28,55 @@
             <file>$PROJ_DIR$\..\..\..\Include\SFR_Macro.h</file>
             <file>$PROJ_DIR$\..\..\..\Include\N76E003_iar.h</file>
             <file>$PROJ_DIR$\..\..\..\Include\Function_define.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\I2C_Master.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C_M.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Delay.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Common.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\devices\NuvoTon\lnk51ew_N76E003.xcl</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 9</file>
+                    <file> 23</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Code\I2C_M.c</name>
+            <name>$PROJ_DIR$\..\..\..\Common\Common.c</name>
             <outputs>
                 <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
                     <name>ICC8051</name>
-                    <file> 17</file>
+                    <file> 4</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 3</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC8051</name>
-                    <file> 21 20 22 11 7 16 18 19</file>
+                    <file> 21 18 19 20 22 11 7 16</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 19 22 20 18 11 21 7 16</file>
+                    <file> 7 22 19 16 18 20 11 21</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\Common\Delay.c</name>
             <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
                 <tool>
                     <name>ICC8051</name>
                     <file> 13</file>
@@ -85,25 +98,29 @@
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Common\Common.c</name>
+            <name>$PROJ_DIR$\Code\I2C_M.c</name>
             <outputs>
                 <tool>
+                    <name>__cstat</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
                     <name>ICC8051</name>
-                    <file> 4</file>
+                    <file> 17</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 10</file>
+                    <file> 3</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC8051</name>
-                    <file> 21 18 19 20 22 11 7 16</file>
+                    <file> 21 20 22 11 7 16 18 19</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 7 22 19 16 18 20 11 21</file>
+                    <file> 19 22 20 18 11 21 7 16</file>
                 </tool>
             </inputs>
         </file>
@@ -135,6 +152,15 @@
                 <tool>
                     <name>XLINK</name>
                     <file> 14 4 13 17 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\I2C_Master.d51</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 27 4 13 17 15</file>
                 </tool>
             </inputs>
         </file>

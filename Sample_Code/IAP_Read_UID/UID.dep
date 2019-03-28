@@ -30,9 +30,9 @@
             <file>$PROJ_DIR$\Debug\Obj\UID_check.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\UID_check.r51</file>
             <file>$PROJ_DIR$\Debug\Exe\UID.d51</file>
-            <file>$PROJ_DIR$\Debug\Obj\Common.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\Delay.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\UID_check.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Delay.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Common.__cstat.et</file>
             <file>$TOOLKIT_DIR$\config\devices\NuvoTon\lnk51ew_N76E003.xcl</file>
         </outputs>
         <file>
@@ -48,32 +48,36 @@
             <name>$PROJ_DIR$\..\..\Common\Common.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
                     <name>__cstat</name>
-                    <file> 25</file>
+                    <file> 27</file>
                 </tool>
                 <tool>
                     <name>ICC8051</name>
                     <file> 4</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 7</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 19 8 21 14 15 6 5 20</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 5 15 21 20 8 14 6 19</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 19 8 21 14 15 6 5 20</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\Common\Delay.c</name>
             <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
                 <tool>
                     <name>__cstat</name>
                     <file> 26</file>
@@ -82,19 +86,15 @@
                     <name>ICC8051</name>
                     <file> 16</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 13</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 19 8 21 14 15 6 5 20</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 5 15 21 8 14 20 19 6</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 19 8 21 14 15 6 5 20</file>
                 </tool>
             </inputs>
         </file>
@@ -102,26 +102,26 @@
             <name>$PROJ_DIR$\Code\UID_check.C</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
                     <name>__cstat</name>
-                    <file> 27</file>
+                    <file> 25</file>
                 </tool>
                 <tool>
                     <name>ICC8051</name>
                     <file> 23</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 22</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 19 8 21 14 15 6 5 20</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 5 15 21 8 14 6 20 19</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 19 8 21 14 15 6 5 20</file>
                 </tool>
             </inputs>
         </file>
@@ -129,21 +129,21 @@
             <name>$PROJ_DIR$\Code\UID_check.h</name>
             <outputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 10</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 9</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
+                    <name>BICOMP</name>
                     <file> 19 14 15 6 5 20 8 21</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
+                    <name>ICC8051</name>
                     <file> 19 14 15 6 5 20 8 21</file>
                 </tool>
             </inputs>
